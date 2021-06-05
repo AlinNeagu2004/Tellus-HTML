@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tellus</title>
+  <!--Change the description-->
+  <meta name="description" content="">
+  <meta name="author" content="Alin Neagu">
+  <meta name="keywords"
+    content="alin neagu, html5, hypertext markup language, web development, challenge, only html, social network">
+  <base href="images/">
+</head>
+
+<body>
+  <header>
+    <img src="logo.png" alt="logo" width="220">
+  </header>
+
+  <br><br><br>
+
+  <main>
+    <table>
+      <tr>
+        <td>
+          <picture>
+            <source media="(width: 360px)" srcset="responsive/1.png">
+            <source media="(width: 375px)" srcset="responsive/2.png">
+            <source media="(width: 424px)" srcset="responsive/3.png">
+            <source media="(width: 411px)" srcset="responsive/4.png">
+            <source media="(width: 414px)" srcset="responsive/5.png">
+            <source media="(width: 425px)" srcset="responsive/6.png">
+            <source media="(width: 540px)" srcset="responsive/7.png">
+            <source media="(min-width: 1440px)" srcset="responsive/11.png">
+            <source media="(min-width: 1200px)" srcset="responsive/12.png">
+            <source media="(min-width: 1024px)" srcset="responsive/13.png">
+            <source media="(min-width: 700px)" srcset="responsive/14.png">
+            <img src="responsive/0.png" alt="blank">
+          </picture>
+        </td>
+        <td>
+          <fieldset>
+
+            <legend>
+              <h2>SIGN UP</h2>
+            </legend>
+            <label for="fname"><sup><img src="required.svg" alt="required" width="7"></sup>First name: </label>
+            <input type="text" id="fname" name="fname" size="16" value="Alin" disabled>
+            <br><br>
+            <label for="lname"><sup><img src="required.svg" alt="required" width="7"></sup>Last name: </label>
+            <input type="text" id="lname" name="lname" size="16" value="Neagu" disabled>
+            <br><br>
+            <label for="username"><sup><img src="required.svg" alt="required" width="7"></sup>Username: </label>
+            <input type="text" id="username" name="username" size="16" value="AlinNeagu" disabled></label>
+            <br><br>
+            <label for="email"><sup><img src="required.svg" alt="required" width="7"></sup>Email: </label>
+            <input type="email" id="email" name="email" size="20" pattern="[A-Za-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+              title="e.g. alinneagu10@gmail.com" autofocus required>
+            <br><br>
+            <label for="password"><sup><img src="required.svg" alt="required" width="7"></sup>Password: </label>
+            <input type="password" id="password" name="password" size="17"
+              pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$"
+              title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 characters"
+              required>
+            <br><br>
+            <label for="dateOfBirth"><sup><img src="required.svg" alt="required" width="7"></sup>Date of birth:
+            </label>
+            <input type="date" id="dateOfBirth" name="dateOfBirth" max="2009-01-01" required>
+            <br><br>
+            <label for="gender"><sup><img src="required.svg" alt="required" width="7"></sup>Gender: </label>
+            <select id="gender">
+              <option value="woman" disabled>Woman</option>
+              <option value="woman" selected>Man</option>
+              <option value="i prefer not to say">I prefer not to say</option>
+              <option value="personalized" disabled>Personalized</option>
+            </select>
+            <br><br>
+            <label for="tel">Phone number: </label>
+            <input type="tel" id="tel" name="tel" size="13" pattern="^\+?[0-9]{1,3}[0-9]{0,14}(?:\s\-\.\(\).+)?$"
+              title="e.g. +1 234 567 8900">
+            <br><br>
+            <form action="/alinneagu.html">
+              <input type="submit">
+            </form>
+          </fieldset>
+        </td>
+        <td>
+          <picture>
+            <source media="(min-width: 1440px)" srcset="representation/desktop1.png">
+            <source media="(min-width: 950px)" srcset="representation/tablet2.png">
+            <source media="(min-width: 600px)" srcset="representation/tablet1.png">
+            <img src="blank.png" alt="blank">
+          </picture>
+        </td>
+      </tr>
+    </table>
+  </main>
+</body>
+
+</html>
