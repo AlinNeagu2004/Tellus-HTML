@@ -3,7 +3,7 @@
 **Tellus** is a social media that was created in only HTML5. Why I put all my struggles into making just an HyperText Markup Language website? Well, this is by far the best practice for developing any language and I wanted to demonstrate that is possible to make a responsive HTML web page without using deprecated elements or attributes or other languages such as CSS, JavaScript and so on...
 
 > <p><a href="https://alinneagu2004.github.io/Tellus-HTML/">Tellus-HTML</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/alinneagu/">LinkedIn</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://twitter.com/AlinNeagu2004/">Twitter</a></p>
-[Alin Neagu](mailto:alinneagu10@gmail.com?subject=[GitHub]%20Source%20Han%20Sans)
+[Alin Neagu](mailto:alinneagu10@gmail.com?subject=[GitHub] Source Han Sans)
 ---
 
 ### What's included
