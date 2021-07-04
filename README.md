@@ -11,6 +11,7 @@
 + Basic codes of HTML
 + Code with accessibility
 + Conventions & Best Practices
++ Responsive
 + Forms & Validations
 + Semantic Elements
 + Search engine optimization
