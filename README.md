@@ -19,4 +19,3 @@
 ---
 
 <p align="center"><em>2021 &copy; Tellus, Alin Neagu</em></p>
-
