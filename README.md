@@ -8,7 +8,7 @@
 
 ### What's included
 
-+ Basic codes of HTML
++ Basic codes of HTML5
 + Code with accessibility
 + Conventions & Best Practices
 + Responsive
